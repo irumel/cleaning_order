@@ -35,3 +35,9 @@
 2025/06/08 (Sun) 01:58:25		write infofile: for update
 2025/06/08 (Sun) 01:58:25		read infofile
 2025/06/08 (Sun) 01:58:25	save info log: 20250608_015825
+2025/06/08 (Sun) 02:13:33	deactivate person: 
+2025/06/08 (Sun) 02:13:33		read infofile
+2025/06/08 (Sun) 02:13:36		entered: 지승업
+2025/06/08 (Sun) 02:13:36		write infofile: for update
+2025/06/08 (Sun) 02:13:36		read infofile
+2025/06/08 (Sun) 02:13:36	save info log: 20250608_021336
