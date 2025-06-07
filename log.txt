@@ -29,3 +29,9 @@
 2025/06/07 (Sat) 23:11:16	enter today's implementer: 
 2025/06/07 (Sat) 23:11:16		read infofile
 2025/06/07 (Sat) 23:11:21	exception: Nothing entered
+2025/06/08 (Sun) 01:58:20	activate person: 
+2025/06/08 (Sun) 01:58:20		read infofile
+2025/06/08 (Sun) 01:58:25		entered: 지승업
+2025/06/08 (Sun) 01:58:25		write infofile: for update
+2025/06/08 (Sun) 01:58:25		read infofile
+2025/06/08 (Sun) 01:58:25	save info log: 20250608_015825
