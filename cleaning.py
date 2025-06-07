@@ -1,10 +1,10 @@
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
-info_path = 'cleaning_order/info.txt'
-log_path = 'cleaning_order/log.txt'
-info_log_path = 'cleaning_order/info_log/info_log_'
-history_path = 'cleaning_order/history.txt'
+info_path = 'info.txt'
+log_path = 'log.txt'
+info_log_path = 'info_log/info_log_'
+history_path = 'history.txt'
 
 log_dic_list = [{0: '\t', 1: 'exception: ', 2: 'enter today\'s implementer: ', 3: 'activate person: ', 4: 'deactivate person: ', 5: 'add person: ', 6: 'save info log:'},
                 {0: '', 1: 'read infofile', 2: 'write infofile', 3: 'write historyfile', 4: 'write ideal infofile'},
