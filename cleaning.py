@@ -1,10 +1,10 @@
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
-info_path = 'info.txt'
-log_path = 'log.txt'
-info_log_path = 'info_log/info_log_'
-history_path = 'history.txt'
+info_path = 'cleaning_order/info.txt'
+log_path = 'cleaning_order/log.txt'
+info_log_path = 'cleaning_order/info_log/info_log_'
+history_path = 'cleaning_order/history.txt'
 
 log_dic_list = [{0: '\t', 1: 'exception: ', 2: 'enter today\'s implementer: ', 3: 'activate person: ', 4: 'deactivate person: ', 5: 'add person: ', 6: 'save info log:'},
                 {0: '', 1: 'read infofile', 2: 'write infofile', 3: 'write historyfile', 4: 'write ideal infofile'},
@@ -22,14 +22,14 @@ def log(log_info):
   # (0: N/A, 1: Nothing entered, 2: Wrong input, 3: Already activated, 4: Already deactivated, 5: Not in the list, 6: Nothing inputted)
   # log_info[3]: additional information
 
-  f = open(log_path, 'a')
+  f = open(log_path, 'a', encoding='utf-8')
   f.writelines(f'{formatted_time}\t{log_dic_list[0][log_info[0]]}{log_dic_list[1][log_info[1]]}{log_dic_list[2][log_info[2]]}{log_info[3]}\n')
   f.close()
 
 def read_infofile():
   log([0, 1, 0, ''])
   info = []
-  f = open(info_path, 'r')
+  f = open(info_path, 'r', encoding='utf-8')
   while True:
     line = f.readline()
     if line == '': break
@@ -43,7 +43,7 @@ def read_infofile():
 
 def write_infofile(info, implementer):
   log([0, 2, 0, f': for implementer ({implementer})' if implementer else ': for update'])
-  f = open(info_path, 'w')
+  f = open(info_path, 'w', encoding='utf-8')
   if implementer:
     for i in info:
       if (i[0] in implementer) and i[5]:
@@ -62,7 +62,7 @@ def info_log():
   info = read_infofile()
   now_korea = datetime.now(ZoneInfo("Asia/Seoul"))
   formatted_time = now_korea.strftime("%Y%m%d_%H%M%S")
-  f = open(info_log_path + formatted_time + '.txt', 'w')
+  f = open(info_log_path + formatted_time + '.txt', 'w', encoding='utf-8')
   for i in info:
     f.writelines(f'{i[0]} {i[1]} {i[2]} {i[3]} {i[4]} {i[5]}\n')
   f.close()
@@ -70,7 +70,7 @@ def info_log():
 
 def write_ideal_infofile(info, top2_implementer):
   log([0, 4, 0, f': {top2_implementer}'])
-  f = open(info_path, 'w')
+  f = open(info_path, 'w', encoding='utf-8')
   for i in info:
     if i[0] in top2_implementer:
       i[3] += 1
@@ -116,7 +116,7 @@ def write_historyfile(implementer):
   now_korea = datetime.now(ZoneInfo("Asia/Seoul"))
   formatted_time = now_korea.strftime("%Y/%m/%d (%a) %H:%M:%S")
 
-  f = open(history_path, 'a')
+  f = open(history_path, 'a', encoding='utf-8')
   f.writelines(f"\n{formatted_time}\t{' '.join(implementer)}\n")
   f.close()
 

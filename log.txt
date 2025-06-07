@@ -24,3 +24,8 @@
 2025/06/07 (Sat) 20:49:54	enter today's implementer: 
 2025/06/07 (Sat) 20:49:54		read infofile
 2025/06/07 (Sat) 20:50:00	exception: Nothing entered
+2025/06/07 (Sat) 23:10:30	enter today's implementer: 
+2025/06/07 (Sat) 23:10:30		read infofile
+2025/06/07 (Sat) 23:11:16	enter today's implementer: 
+2025/06/07 (Sat) 23:11:16		read infofile
+2025/06/07 (Sat) 23:11:21	exception: Nothing entered
