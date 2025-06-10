@@ -61,3 +61,6 @@
 2025/06/10 (Tue) 20:51:40		write ideal infofile: ['한성복', '최승호']
 2025/06/10 (Tue) 20:51:40		read infofile
 2025/06/10 (Tue) 20:51:40	save info log: 20250610_205140
+2025/06/10 (Tue) 21:47:31	enter today's implementer: 
+2025/06/10 (Tue) 21:47:31		read infofile
+2025/06/10 (Tue) 21:47:33	exception: Nothing entered
