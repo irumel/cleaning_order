@@ -77,3 +77,10 @@
 2025/06/21 (Sat) 20:50:10		write ideal infofile: ['강명재', '이경헌']
 2025/06/21 (Sat) 20:50:10		read infofile
 2025/06/21 (Sat) 20:50:10	save info log: 20250621_205010
+2025/06/21 (Sat) 20:50:14	enter today's implementer: 
+2025/06/21 (Sat) 20:50:14		read infofile
+2025/06/21 (Sat) 20:50:17		write infofile: for implementer (['구서훈', '문종준'])
+2025/06/21 (Sat) 20:50:17		write historyfile
+2025/06/21 (Sat) 20:50:17		write ideal infofile: ['한승민', '이승준']
+2025/06/21 (Sat) 20:50:17		read infofile
+2025/06/21 (Sat) 20:50:17	save info log: 20250621_205017
