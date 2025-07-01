@@ -113,3 +113,10 @@
 2025/07/01 (Tue) 20:46:34	enter today's implementer: 
 2025/07/01 (Tue) 20:46:34		read infofile
 2025/07/01 (Tue) 20:46:36	exception: Nothing entered
+2025/07/01 (Tue) 20:49:30	enter today's implementer: 
+2025/07/01 (Tue) 20:49:30		read infofile
+2025/07/01 (Tue) 20:49:37		write infofile: for implementer (['이승준', '문종준'])
+2025/07/01 (Tue) 20:49:37		write historyfile
+2025/07/01 (Tue) 20:49:37		write ideal infofile: ['최승호', '강명재']
+2025/07/01 (Tue) 20:49:37		read infofile
+2025/07/01 (Tue) 20:49:37	save info log: 20250701_204937
