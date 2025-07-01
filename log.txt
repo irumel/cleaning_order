@@ -110,3 +110,6 @@
 2025/06/28 (Sat) 20:51:54	save info log: 20250628_205154
 2025/07/01 (Tue) 20:46:14	enter today's implementer: 
 2025/07/01 (Tue) 20:46:14		read infofile
+2025/07/01 (Tue) 20:46:34	enter today's implementer: 
+2025/07/01 (Tue) 20:46:34		read infofile
+2025/07/01 (Tue) 20:46:36	exception: Nothing entered
