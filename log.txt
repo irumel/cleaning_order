@@ -130,3 +130,6 @@
 2025/07/05 (Sat) 21:01:28		write ideal infofile: ['이경헌', '한승민']
 2025/07/05 (Sat) 21:01:28		read infofile
 2025/07/05 (Sat) 21:01:28	save info log: 20250705_210128
+2025/07/08 (Tue) 20:43:41	enter today's implementer: 
+2025/07/08 (Tue) 20:43:41		read infofile
+2025/07/08 (Tue) 20:43:46	exception: Nothing entered
