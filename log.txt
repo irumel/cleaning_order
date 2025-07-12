@@ -150,3 +150,9 @@
 2025/07/12 (Sat) 20:57:22		write ideal infofile: ['구서훈', '노현우']
 2025/07/12 (Sat) 20:57:22		read infofile
 2025/07/12 (Sat) 20:57:22	save info log: 20250712_205722
+2025/07/12 (Sat) 20:57:28	deactivate person: 
+2025/07/12 (Sat) 20:57:28		read infofile
+2025/07/12 (Sat) 20:57:32		entered: 문종준
+2025/07/12 (Sat) 20:57:32		write infofile: for update
+2025/07/12 (Sat) 20:57:32		read infofile
+2025/07/12 (Sat) 20:57:32	save info log: 20250712_205732
