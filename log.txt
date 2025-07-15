@@ -156,3 +156,6 @@
 2025/07/12 (Sat) 20:57:32		write infofile: for update
 2025/07/12 (Sat) 20:57:32		read infofile
 2025/07/12 (Sat) 20:57:32	save info log: 20250712_205732
+2025/07/15 (Tue) 19:47:20	enter today's implementer: 
+2025/07/15 (Tue) 19:47:20		read infofile
+2025/07/15 (Tue) 19:47:33	exception: Nothing entered
