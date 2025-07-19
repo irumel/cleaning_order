@@ -169,3 +169,10 @@
 2025/07/19 (Sat) 19:45:09	enter today's implementer: 
 2025/07/19 (Sat) 19:45:09		read infofile
 2025/07/19 (Sat) 19:45:16	exception: Nothing entered
+2025/07/19 (Sat) 20:56:02	enter today's implementer: 
+2025/07/19 (Sat) 20:56:02		read infofile
+2025/07/19 (Sat) 20:56:07		write infofile: for implementer (['강태우', '이경헌'])
+2025/07/19 (Sat) 20:56:07		write historyfile
+2025/07/19 (Sat) 20:56:07		write ideal infofile: ['한성복', '최승호']
+2025/07/19 (Sat) 20:56:07		read infofile
+2025/07/19 (Sat) 20:56:07	save info log: 20250719_205607
